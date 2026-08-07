@@ -20,10 +20,10 @@ base_info:
   avatar: /images/touxiang.jpg
 
   # Website LOGO, You can use local image path or image link
-  logo: /images/doubao.jpg
+  logo:
 
   # Website favicon, You can use local image path or image link
-  favicon: /images/doubao.jpg
+  favicon: /images/code-solid.png
 
 
 # ---------------------------------------------------------------------------------------
@@ -51,10 +51,10 @@ first_screen:
   enable: true  # Option values: true | false
 
   # First screen background image in light mode, You can use local image path or image link
-  background_img: /images/shouye.jpg
+  background_img: /images/bz.jpg
 
   # First screen background image in dark mode, You can use local image path or image link
-  background_img_dark: /images/shouye.jpg
+  background_img_dark: /images/bz.jpg
 
   # First screen description
   # You can use the "||" to begin a newline, maximum is two lines.
