@@ -161,8 +161,8 @@ code_block:
   # Toolbar include: "code copy", "code block collapse" and "code language"
   tools:
     enable: true            # Option values: true | false
-    style: mac           # Option values: default | mac
-  highlight_theme: obsidian   # Option values: default | obsidian
+    style: default           # Option values: default | mac
+  highlight_theme: default   # Option values: default | obsidian
 
 
 # ---------------------------------------------------------------------------------------
@@ -286,7 +286,7 @@ rss:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/lazyload.html
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
@@ -313,8 +313,8 @@ pjax:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/footer.html
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020            # The starting year of your website, Can be null
-  word_count: false      # Option values: true | false
+  since: 2026            # The starting year of your website, Can be null
+  word_count: true      # Option values: true | false
 
   site_deploy:
     enable: false        # Option values: true | false

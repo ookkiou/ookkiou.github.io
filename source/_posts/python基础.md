@@ -11,10 +11,11 @@ lst = list(s)
 对lst做修改
 return ''.join(lst)  返回str
 #### 方法二：切片
-`class Solution:`
-    `def reversePrefix(self, s: str, k: int) -> str:`
-        `return s[:k][::-1] + s[k:]`
-
+```python
+class Solution:
+    def reversePrefix(self, s: str, k: int) -> str:
+        return s[:k][::-1] + s[k:]
+```
 - join前面加的东西，代表了连接符是什么
 "-".join(["a", "b", "c"])       # "a-b-c"
 "".join(["a", "b", "c"])        # "abc"        ← 没有连接符

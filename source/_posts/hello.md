@@ -10,3 +10,7 @@ tags:
 
 ### 这是标题
 这是内容。
+
+```javascript
+console.log('Hello, Hexo!');
+```
