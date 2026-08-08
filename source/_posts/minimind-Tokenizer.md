@@ -3,7 +3,7 @@ title: minimind-Tokenizer
 date: 2026-08-08 18:43:00
 excerpt: minimind的分词器
 tags: [大模型,BPE]
-categories: [大模型,minimind]
+categories: [minimind]
 ---
 
 ### BPE 分词方法
