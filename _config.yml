@@ -63,4 +63,4 @@ deploy:
   type: git
   repo: git@github.com:ookkiou/ookkiou.github.io.git
   branch: main
-  message: 'Site updated: {{ now("YYYY-MM-DD HH:mm:ss") }}'
+  message: 'Site updated: {{ now("YYYY-MM-DD") }}'
