@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/ookkiou/ookkiou.github.io",
+  "branch": "main",
+  "message": "Site updated: {{ now(\"YYYY-MM-DD HH:mm:ss\") }}",
+  "enabledPlatforms": [
+    "github"
+  ]
+}
