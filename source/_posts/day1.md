@@ -2,8 +2,10 @@
 title: minimind-day1
 date: 2026-08-08 18:43:00
 excerpt: 基本代码内容和框架总览
-tags: [大模型,minimind]
-categories: 
+tags:
+  - 大模型
+  - minimind
+categories:
   - 大模型
   - minimind
 ---
@@ -20,6 +22,7 @@ categories:
 | --- | ------------------------------------- | ------------------------------------------------------ |
 | 架构  | 一堆数学公式和层叠结构（Attention、FFN、Embedding…） | model/model_minimind.py 这个 Python 类                    |
 | 权重  | 公式里那些参数的具体数值（每个 Linear 层的矩阵）          | out/pretrain_768.pth 文件，或 minimind-3/model.safetensors |
+
 只有架构没权重 → 模型存在但"啥都不会"（输出乱码）。 只有权重没架构 → 一堆数字，不知道怎么用。 两者合起来 → 能用的模型。
 
 一开始只有架构，权重都是随机的。我们训练的就是权重。不断调整那些随机权重，让模型输出越来越像人话 。

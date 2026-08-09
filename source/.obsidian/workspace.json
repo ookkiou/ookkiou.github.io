@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "37094eb0a823cd16",
+    "type": "split",
+    "children": [
+      {
+        "id": "fdd22b5ea2bfddee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a4b102c55eace59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/minimind-Tokenizer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "minimind-Tokenizer"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e4e2b18519aa3df",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8006780d886eac4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dff172f5c2599ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "41d680f9c14d25d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d0d2fec71e286e0d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4d7344f99ca865ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "724fb3b89a15409b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20b703363a27be53",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/为什么深度学习需要‘归一化’.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "57eaf88d505614e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/为什么深度学习需要‘归一化’.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "98a00e61babfe548",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "d49e48a97fc7e1df",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d681cbfb33d8f4ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/为什么深度学习需要‘归一化’.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "0a4b102c55eace59",
+  "lastOpenFiles": [
+    "_posts/day1.md",
+    "_posts/hello.md",
+    "_posts/为什么深度学习需要‘归一化’.md",
+    "_posts/minimind-Tokenizer.md",
+    "_posts/BPE分词器_副本.md",
+    "_posts/激活函数.md",
+    "_posts/哈哈哈.md",
+    "_posts/FFF.md",
+    "_posts/未命名.md",
+    "_posts/BPE分词器.md",
+    "template/hexo.md",
+    "template/FFF.md",
+    "Snapzy_2026-08-09_15-55-45_709.png",
+    "tags/index.md",
+    "Snapzy_2026-08-09_15-59-55_729.png",
+    "images/2.jpg",
+    "categories/index.md",
+    "Snapzy_2026-08-09_16-03-44_748.png",
+    "Snapzy_2026-08-09_16-01-28_351.png",
+    "Snapzy_2026-08-09_16-01-57_048.png",
+    "_drafts/滑动窗口.md",
+    "Snapzy_2026-08-10_00-42-02_580.png",
+    "images/Snapzy_2026-08-10_00-36-26_761.png",
+    "_posts/Snapzy_2026-08-10_00-36-57_804.png",
+    "about/index.md",
+    "images/Snapzy_2026-08-10_00-18-50_048.png",
+    "_posts/对对对.md",
+    "未命名.md",
+    "2026-08-10.md",
+    "_posts/未命名 1.md",
+    "template"
+  ]
+}
