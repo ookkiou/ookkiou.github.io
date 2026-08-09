@@ -58,9 +58,9 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: keep
+theme: fluid
 deploy:
   type: git
-  repo: git@github.com:ookkiou/ookkiou.github.io.git
+  repo: https://github.com/ookkiou/ookkiou.github.io.git
   branch: main
-  message: 'Site updated: {{ now("YYYY-MM-DD") }}'
+  message: 'Site updated: {{ now("YYYY-MM-DD HH:mm:ss") }}'

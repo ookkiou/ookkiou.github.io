@@ -2,8 +2,10 @@
 title: minimind-Tokenizer
 date: 2026-08-08 18:43:00
 excerpt: minimind的分词器
-tags: [大模型,BPE]
-categories: [minimind]
+tags: [大模型,BPE,minimind]
+categories: 
+  - 大模型
+  - minimind
 ---
 
 ### BPE 分词方法
@@ -13,6 +15,8 @@ categories: [minimind]
 BPE 不会出现"token 不在词表里"的情况 。因为初始词表就是 256 个字节，覆盖所有 UTF-8 编码。编码时"能合并就合并，合不了就留字节"——最坏退化成纯字节序列，永不失败。代价是生僻内容占更多 token、模型学得差，但这是"能用但差"，不是 OOV 失败。这正是 ByteLevel 取代传统 tokenizer 的核心原因： 用 256 字节兜底一切，用 BPE 合并提升效率 。
 
 ### minimind 的分词策略
+
+
 
 传统的 BPE 会预切分，按照空格先把文本切成单词，而中文没有空格可以切。 所以 minimind 使用 ByteLevel BPE 所有语言走同一套机制： ByteLevel 的做法 ：跳过"按空格切词"这一步，直接把 所有文本先转成 UTF-8 字节序列 ，在字节层面做 BPE。
 
