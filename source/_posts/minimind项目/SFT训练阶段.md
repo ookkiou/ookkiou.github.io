@@ -53,3 +53,21 @@ labels:  -100...    -100...   你好，我是AI<eos>   -100...   今天晴天<eo
 input_ids 和 labels 是同一序列的两个视角——前者是"模型看到什么"，后者是"模型学什么"。先 tokenize 得到 input_ids，再在其上标记哪些位置参与学习（设 labels）。-100 就是"看但别学"的标记。
 ① tokenize 文本 → input_ids → ② 基于 input_ids 构造 labels 。
 模型用 input_ids 看前面的序列做预测；算 loss 时对照 labels ，凡是 labels 里是 -100 的位置（pad、user 段等）就 跳过不算 loss、不产生梯度 ，只有真实 token 位置才算 loss 并反向传播更新参数。
+
+
+## 训练日志
+```
+cd ~/autodl-tmp/minimind/trainer
+
+python train_full_sft.py \
+  --from_weight pretrain \
+  --data_path ../dataset/sft_t2t_mini.jsonl \
+  --batch_size 16 \
+  --learning_rate 1e-5 \
+  --epochs 1 \ 由于训练时间过长，这里 epochs 我改成了 1。
+  --max_seq_len 768 \
+  --device cuda:0
+```
+![](Snapzy_2026-08-10_19-43-37_727.png)
+训练之后可以发现，相比预训练阶段，模型可以回答问题了，并不是单纯的词语接龙。
+![](Snapzy_2026-08-10_19-55-36_921.png)

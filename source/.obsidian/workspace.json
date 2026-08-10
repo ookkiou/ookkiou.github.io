@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/minimind项目/pretrain训练阶段.md",
+                "file": "_posts/minimind项目/知识蒸馏.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pretrain训练阶段"
+              "title": "知识蒸馏"
             }
           }
         ]
@@ -189,23 +189,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0a4b102c55eace59",
+  "active": "1dff172f5c2599ad",
   "lastOpenFiles": [
+    "_posts/minimind项目/BPE分词器.md",
+    "_posts/minimind项目/激活函数.md",
+    "_posts/minimind项目/知识蒸馏.md",
+    "Snapzy_2026-08-10_21-42-06_673.png",
+    "_posts/minimind项目/day1.md",
+    "_posts/minimind项目/minimind-Tokenizer.md",
+    "_posts/minimind项目/为什么深度学习需要‘归一化’.md",
     "_posts/minimind项目/代办.md",
     "_posts/minimind项目/pretrain训练阶段.md",
     "_posts/minimind项目/SFT训练阶段.md",
-    "_posts/minimind项目/为什么深度学习需要‘归一化’.md",
+    "_posts/minimind项目/LoRA.md",
+    "_posts/minimind项目/未命名.md",
+    "Snapzy_2026-08-10_19-55-36_921.png",
+    "Snapzy_2026-08-10_19-43-37_727.png",
     "Snapzy_2026-08-10_17-03-02_930.png",
     "Snapzy_2026-08-10_17-02-46_220.png",
     "Snapzy_2026-08-10_16-48-01_854.png",
-    "_posts/minimind项目/minimind-Tokenizer.md",
-    "_posts/minimind项目/day1.md",
-    "_posts/minimind项目/激活函数.md",
     "Snapzy_2026-08-10_13-50-40_018.png",
     "Snapzy_2026-08-10_13-49-14_058.png",
     "Snapzy_2026-08-10_13-41-26_090.png",
     "Snapzy_2026-08-10_13-37-19_263.png",
-    "_posts/minimind项目/BPE分词器.md",
     "_posts/minimind项目",
     "_posts/hello.md",
     "template/hexo.md",
@@ -214,17 +220,13 @@
     "_posts/FFF.md",
     "_posts/未命名.md",
     "template/FFF.md",
-    "Snapzy_2026-08-09_15-55-45_709.png",
     "tags/index.md",
-    "Snapzy_2026-08-09_15-59-55_729.png",
-    "images/2.jpg",
     "categories/index.md",
     "_drafts/滑动窗口.md",
     "about/index.md",
     "_posts/对对对.md",
     "未命名.md",
     "2026-08-10.md",
-    "_posts/未命名 1.md",
     "template"
   ]
 }
