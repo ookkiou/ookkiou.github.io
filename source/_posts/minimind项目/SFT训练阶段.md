@@ -9,6 +9,8 @@ categories:
 
 
 ---
+
+## SFT 核心思想 TODO
 ## SFT阶段和预训练的区别
 SFT 训练流程和预训练几乎一模一样。训练循环、梯度累积、cosine lr、混合精度、保存逻辑全部相同。唯一本质区别在 数据集的 labels 构造 （只学 assistant 回答段）和 初始权重 （从 pretrain 接着训）。
 
