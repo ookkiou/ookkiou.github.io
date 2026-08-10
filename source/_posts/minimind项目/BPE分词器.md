@@ -2,10 +2,12 @@
 title: BPE分词器
 date: 2026-08-07 16:17:05
 excerpt: 介绍BPE分词器
-tags: [大模型,BPE]
+tags:
+  - 大模型
+  - BPE
 categories: 大模型
 ---
-wocaooooooo
+
 cs336第一节课介绍了不同类型的分词器
 效率的关键：字节数/token数，越高越好
 character字符分割——按照Unicode分割，显得token太长，词汇量太长

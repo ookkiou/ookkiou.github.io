@@ -1,1 +1,9 @@
-{}
+{
+  "cssTheme": "Blue Topaz",
+  "accentColor": "#7acd8f",
+  "interfaceFontFamily": "LXGW Bright Code GB",
+  "textFontFamily": "LXGW Bright Code GB",
+  "monospaceFontFamily": "PT Mono",
+  "baseFontSizeAction": true,
+  "translucency": true
+}
