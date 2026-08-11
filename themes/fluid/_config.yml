@@ -991,7 +991,7 @@ about:
     - { class: "iconfont icon-github-fill", link: "https://github.com/ookkiou", tip: "GitHub" }
     - { class: "iconfont icon-book", link: "https://xhslink.cn/m/3pTb9uStpNa", tip: "小红书" }
     - { class: "iconfont icon-zhihu-fill", link: "https://www.zhihu.com/people/85-72-64-65", tip: "知乎" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/source/images/wx.jpg", tip: "微信" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/images/wx.jpg", tip: "微信" }
     - { class: "iconfont icon-mail", link: "mailto:ookkiou@mail.ustc.edu.cn" , tip: "发个邮件"}
 
 

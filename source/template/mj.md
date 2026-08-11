@@ -1,10 +1,15 @@
 ---
+
 title: <% await tp.system.prompt("请输入标题") %>
+
 date: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
-excerpt:
-tags:
+
+tags: 面经
+
 categories:
-  - 大模型
+
+- 面试
+
 ---
 
 write more
